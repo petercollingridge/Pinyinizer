@@ -60,6 +60,14 @@ ti0	ti
 ni1	nī
 li2	lí
 
+# One initial + u
+wu	wu
+fu1	fū
+lu2	lú
+su3	sǔ
+hu4	hù
+ru5	ru
+
 # One initial + v
 lv	lü
 nv0	nü
@@ -68,6 +76,15 @@ nv2	nǘ
 lv3	lǚ
 nv4	nǜ
 lv5	lü
+
+# Intial + ai
+ai0	ai
+ai4	ài
+bai1	bāi
+tai2	tái
+sai3	sǎi
+zhai4	zhài
+kai5	kai
 
 # Two initials + vowel
 zha0	zha
@@ -85,6 +102,7 @@ gan5	gan
 zhan0	zhan
 chan1	chān
 shan2	shán
+wan3	wǎn
 
 # Initial + en
 en0	en
@@ -94,6 +112,7 @@ den3	děn
 nen4	nèn
 cen5	cen
 shen1	shēn
+wen2	wén
 hen3	hěn
 
 # Initial + ang
@@ -103,9 +122,11 @@ pang1	pāng
 tang3	tǎng
 cang4	càng
 kang5	kang
+yang1	yāng	
 zhang1	zhāng
 chang0	chang
 shang2	sháng
+wang3	wǎng
 
 # Initial + eng
 meng0	meng
@@ -114,6 +135,7 @@ zeng2	zéng
 sheng3	shěng
 reng4	rèng
 geng5	geng
+weng1	wēng
 
 # Initial + ong
 dong0	dong
@@ -122,17 +144,7 @@ zong2	zóng
 zhong3	zhǒng
 rong4	ròng
 kong5	kong
-
-# Initial + in
-yin0	yin
-bin1	bīn
-pin2	pín
-min3	mǐn
-nin4	nìn
-lin5	lin
-jin1	jīn
-qin2	qín
-xin3	xǐn
+yong1	yōng
 
 # Initial + ian
 bian0	bian
@@ -146,6 +158,52 @@ jian2	jián
 qian3	qiǎn
 xian4	xiàn
 
+# Initial + in
+yin0	yin
+bin1	bīn
+pin2	pín
+min3	mǐn
+nin4	nìn
+lin5	lin
+jin1	jīn
+qin2	qín
+xin3	xǐn
+
+# Initial + ing
+ying3	yǐng
+ping1	pīng
+ning2	níng
+jing5	jing
+
+# Initial + iang
+niang0	niang
+liang1	liāng
+jiang2	jiáng
+qiang3	qiǎng
+xiang4	xiàng
+
+# Initial + iong
+jiong0	jiong
+qiong2	qióng
+xiong5	xiong
+
+# Initial + ua
+zhua0	zhua
+chua1	chuā
+shua2	shuá
+rua3	ruǎ
+gua4	guà
+kua5	kua
+hua1	huā
+
+# Initial + un
+tun0	tun
+zun1	zūn
+run2	rún
+gun3	gǔn
+jun4	jùn
+xun5	xun
+
 # Initial + uan
 zhuan0	zhuan
 chuan1	chuān
@@ -153,6 +211,18 @@ shuan2	shuán
 juan3	juǎn
 quan4	quàn
 xuan5	xuan
+ruan1	ruān	
+nuan2	nuán
+cuan3	cuǎn
+yuan4	yuàn
+
+# Initial + uang
+guang0	guang
+kuang1	kuāng
+huang2	huáng
+zhuang3	zhuǎng
+chuang4	chuàng
+shuang5	shuang
 
 # With r
 er0	er

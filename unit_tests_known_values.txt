@@ -3,6 +3,7 @@ ba	ba
 pa6	pa6
 zi	zi
 zha	zha
+chuang	chuang
 web2	web2	
 negation1	negation1
 
@@ -21,7 +22,7 @@ sa4	sà
 ga5	ga
 ka0	ka
 ha1	hā
-ba2	bá
+ya2	yá
 pa3	pǎ
 ma4	mà
 fa5	fa
@@ -85,6 +86,16 @@ tai2	tái
 sai3	sǎi
 zhai4	zhài
 kai5	kai
+
+# Intial + ao
+ao0	ao
+ao3	ǎo
+pao1	pāo
+nao2	náo
+zao3	zǎo
+chao4	chào
+rao5	rao
+hao1	hāo
 
 # Two initials + vowel
 zha0	zha

@@ -3,7 +3,7 @@
 
 import re
 
-pinyin_re = re.compile('([aeiouv])(?:n|ng)?r?	([0-5])')
+pinyin_re = re.compile('(a[io]?|[ieouv])(?:n|ng)?r?([0-5])')
 
 pinyin_tonemarks = {
 	'a': ['a', 'ā', 'á', 'ǎ', 'à'],
@@ -24,6 +24,7 @@ def addToneMarks(in_string):
 		match = pinyin_re.search(word)
 		if match:
 			letter, number = match.groups(0)
+			letter = letter[:1]
 			if pinyin_tonemarks.get(letter):
 				n = int(number) % 5
 				tone_mark = pinyin_tonemarks[letter][n]

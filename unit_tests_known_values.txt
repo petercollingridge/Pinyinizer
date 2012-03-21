@@ -1,0 +1,170 @@
+# Words that should not change
+ba	ba
+pa6	pa6
+zi	zi
+zha	zha
+web2	web2	
+negation1	negation1
+
+# One initial + a
+ba0	ba
+pa1	pā
+ma2	má
+fa3	fǎ
+da4	dà
+ta5	ta
+na0	na
+la1	lā
+za2	zá
+ca3	cǎ
+sa4	sà
+ga5	ga
+ka0	ka
+ha1	hā
+ba2	bá
+pa3	pǎ
+ma4	mà
+fa5	fa
+
+# One initial + o
+bo0	bo
+po1	pō
+mo2	mó
+fo3	fǒ
+bo4	bò
+
+# One initial + e
+me0	me
+de5	de
+te1	tē
+ne2	né
+le3	lě
+ze4	zè
+ce1	cē
+se2	sé
+re3	rě
+
+# One initial + i
+zi0	zi
+ci1	cī
+si2	sí
+ji3	jǐ
+qi4	qì
+xi5	xi
+ri1	rī
+bi2	bí
+pi3	pǐ
+mi4	mì
+di5	di
+ti0	ti
+ni1	nī
+li2	lí
+
+# One initial + v
+lv	lü
+nv0	nü
+lv1	lǖ
+nv2	nǘ
+lv3	lǚ
+nv4	nǜ
+lv5	lü
+
+# Two initials + vowel
+zha0	zha
+che1	chē
+shi2	shí
+zhu3	zhǔ
+
+# Initial + an
+an0	an
+an1	ān
+ban2	bán
+dan3	dǎn
+ran4	ràn
+gan5	gan
+zhan0	zhan
+chan1	chān
+shan2	shán
+
+# Initial + en
+en0	en
+en2	én
+pen1	pēn
+den3	děn
+nen4	nèn
+cen5	cen
+shen1	shēn
+hen3	hěn
+
+# Initial + ang
+ang0	ang
+ang2	áng
+pang1	pāng
+tang3	tǎng
+cang4	càng
+kang5	kang
+zhang1	zhāng
+chang0	chang
+shang2	sháng
+
+# Initial + eng
+meng0	meng
+leng1	lēng
+zeng2	zéng
+sheng3	shěng
+reng4	rèng
+geng5	geng
+
+# Initial + ong
+dong0	dong
+cong1	cōng
+zong2	zóng
+zhong3	zhǒng
+rong4	ròng
+kong5	kong
+
+# Initial + in
+yin0	yin
+bin1	bīn
+pin2	pín
+min3	mǐn
+nin4	nìn
+lin5	lin
+jin1	jīn
+qin2	qín
+xin3	xǐn
+
+# Initial + ian
+bian0	bian
+pian1	piān
+mian2	mián
+dian3	diǎn
+tian4	tiàn
+nian5	nian
+lian1	liān
+jian2	jián
+qian3	qiǎn
+xian4	xiàn
+
+# Initial + uan
+zhuan0	zhuan
+chuan1	chuān
+shuan2	shuán
+juan3	juǎn
+quan4	quàn
+xuan5	xuan
+
+# With r
+er0	er
+er2	ér
+dianr3	diǎnr
+shir4	shìr
+huar1	huār
+nar2	nár
+
+# Compound words
+ni3hao3	nǐhaǒ
+pin1yin1	pīnyīn
+
+# Sentences
+wo3 ai4 ni3	wǒ aì nǐ

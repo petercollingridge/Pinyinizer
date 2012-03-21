@@ -1,0 +1,41 @@
+Latin-1 Supplement - Unicode U+0080 - U+00FF - (128-255)
+á = &#225; = &#xE1; = &aacute;
+à = &#224; = &#xE0; = &agrave;
+é = &#233; = &#xE9; = &eacute;
+è = &#232; = &#xE8; = &egrave;
+í = &#237; = &#xED; = &iacute;
+ì = &#236; = &#xEC; = &igrave;
+ó = &#243; = &#xF3; = &oacute;
+ò = &#242; = &#xF2; = &ograve;
+ú = &#250; = &#xFA; = &oacute;
+ù = &#249; = &#xF9; = &ugrave;
+ü = &#252; = &#xFC; = &uuml;
+subtract 32 for upper case
+
+Latin Extended-A - Unicode U+0100 - U+017F - (256-383)
+ā = &#257; = &#x101;
+ē = &#275; = &#x113;
+ě = &#283; = &#x11B;
+ī = &#299; = &#x12B;
+ō = &#333; = &#x14D;
+ū = &#363; = &#x16B;
+subtract 1 for upper case
+
+Latin Extended-B U+0180 - U+024F (384-591)
+ǎ = &#462; = &#x1CE;
+ǐ = &#464; = &#x1D0;
+ǒ = &#466; = &#x1D2;
+ǔ = &#468; = &#x1D4;
+
+ǖ = &#470; = &#x1D6;
+ǘ = &#472; = &#x1D8;
+ǚ = &#474; = &#x1DA;
+ǜ = &#476; = &#x1DC;
+subtract 1 for upper case
+
+ā á ǎ à a
+ē é ě è e
+ī í ǐ ì i
+ō ó ǒ ò o
+ū ú ǔ ù u
+ǖ ǘ ǚ ǜ ü

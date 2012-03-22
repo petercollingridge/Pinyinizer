@@ -17,33 +17,22 @@ pinyin_tonemarks = {
 
 """ Convert a string of pinyin with tone numbers
     to a string of pinyin with tone marks. """
-    
-def addToneMarks(in_string):
-    """ Add tone marks to string of pinyin with tone numbers. """
-    
-    words = []
-    for word in in_string.split(' '):
-        match = pinyin_re.search(word)
-        letter = None
-        
-        if match:
-            letter, number = match.groups(0)
-            letter = letter[:1]
-            end = match.end() - 1
-            
-        else:
-            match = pinyin_ue.search(word)
-            if match:
-                letter, number = match.groups(0)
-                end = match.end() - 2
 
-        if letter and pinyin_tonemarks.get(letter):
-            tone_mark = pinyin_tonemarks[letter][int(number) % 5]
-                
-            start = match.start()
-            word = word[:start] + tone_mark + word[start+1:end]
+
+def replaceWithToneMarks(in_string):
+    """ Replace piyin with tone numbers with tone marks. """
     
-        words.append(word)
+    def replaceToneNumber(match):
+        letter = match.group(1)[0]
+        number = int(match.group(2)) % 5
+        return pinyin_tonemarks[letter][number] + match.group(0)[1:-1]
+        
+    def replaceVEWords(match):
+        letter = match.group(1)
+        number = int(match.group(2)) % 5
+        return pinyin_tonemarks[letter][number] + match.group(0)[1:-2]
+
+    in_string = re.sub(pinyin_re, replaceToneNumber, in_string)
+    in_string = re.sub(pinyin_ue, replaceVEWords, in_string)
     
-    out_string = ' '.join(words)
-    return out_string
+    return in_string

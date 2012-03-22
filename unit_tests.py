@@ -31,7 +31,7 @@ def runTests():
         failures = []
 
         for (test_in, test_out) in test_set:
-            result = pinyinizer.addToneMarks(test_in)
+            result = pinyinizer.replaceWithToneMarks(test_in)
             if result != test_out:
                 failures.append("   %s -> %s (expecting: %s)" % (test_in, result, test_out))
             else:

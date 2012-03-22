@@ -96,6 +96,21 @@ zao3	zǎo
 chao4	chào
 rao5	rao
 hao1	hāo
+yao2	yáo
+
+# Intial + ia
+lia0	lia
+jia1	jiā
+qia3	qiǎ
+xia5	xia
+
+# Intial + iao
+biao0	biao
+miao1	miāo
+diao2	biáo
+niao3	niǎo
+jiao4	jiào
+xiao5	xiao
 
 # Two initials + vowel
 zha0	zha
@@ -207,6 +222,14 @@ gua4	guà
 kua5	kua
 hua1	huā
 
+# Initial + ua
+zhuai0	zhuai
+chuai1	chuāi
+shuai2	shuái
+guai3	guǎi
+kuai4	kuài
+huai5	huai
+
 # Initial + un
 tun0	tun
 zun1	zūn
@@ -248,4 +271,4 @@ ni3hao3	nǐhaǒ
 pin1yin1	pīnyīn
 
 # Sentences
-wo3 ai4 ni3	wǒ aì nǐ
+wo3 ai4 ni3	wǒ ài nǐ

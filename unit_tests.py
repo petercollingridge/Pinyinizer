@@ -2,8 +2,6 @@
           # -*- coding: utf-8 -*-
 
 """ Unit tests for pinyinizer.py """
-import sys
-sys.path.append("/..")
 
 import pinyinizer
 
@@ -28,6 +26,7 @@ def runTests():
     known_values = getKnownValues("unit_tests_known_values.txt")
     
     passed = 0
+    failed = 0
     for test_type, test_set in known_values.iteritems():
         failures = []
 
@@ -40,11 +39,12 @@ def runTests():
                 
         if failures:
             print ' In "%s", %d of %d failed:' % (test_type, len(failures), len(test_set))
+            failed += len(failures)
             for failure in failures:
                 print failure
             print   
             
-    print "Passed %d tests" % passed
+    print "Passed %d out of %d tests" % (passed, passed + failed)
         
 if __name__ == "__main__":
     runTests()

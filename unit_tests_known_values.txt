@@ -44,6 +44,7 @@ ze4	zè
 ce1	cē
 se2	sé
 re3	rě
+ye4	yè
 
 # One initial + i
 zi0	zi
@@ -70,13 +71,18 @@ hu4	hù
 ru5	ru
 
 # One initial + v
-lv	lü
 nv0	nü
 lv1	lǖ
 nv2	nǘ
 lv3	lǚ
 nv4	nǜ
 lv5	lü
+
+# Two initials + vowel
+zha0	zha
+che1	chē
+shi2	shí
+zhu3	zhǔ
 
 # Intial + ai
 ai0	ai
@@ -98,6 +104,18 @@ rao5	rao
 hao1	hāo
 yao2	yáo
 
+# Initial + ei
+ei0	ei
+ei1	ēi
+bei2	béi
+dei3	děi
+nei4	nèi
+gei5	gei
+zei0	zei
+zhei1	zhēi
+shei2	shéi
+wei3	wěi
+
 # Intial + ia
 lia0	lia
 jia1	jiā
@@ -107,16 +125,56 @@ xia5	xia
 # Intial + iao
 biao0	biao
 miao1	miāo
-diao2	biáo
+diao2	diáo
 niao3	niǎo
 jiao4	jiào
 xiao5	xiao
 
-# Two initials + vowel
-zha0	zha
-che1	chē
-shi2	shí
-zhu3	zhǔ
+# Intial + ie
+bie0	bie
+mie1	miē
+nie2	nié
+lie3	liě
+jie4	jiè
+xie5	xie
+
+# Intial + iu
+miu0	miu
+diu1	diū
+niu2	niú
+liu3	liǔ
+jiu4	jiù
+qiu5	qiu
+
+# Initial + uo
+duo0	duo
+zuo1	zuō
+zhuo2	zhuó
+shuo3	shuǒ
+ruo4	ruò
+guo5	guo
+
+# Initial + ui
+tui0	tui
+cui1	cuī
+chui2	chuí
+shui3	shuǐ
+rui4	ruì
+hui5	hui
+
+# Initial + ue
+jue0	jue
+que1	quē
+xue2	xué
+jue3	juě
+que4	què
+xue5	xue
+
+# Initial + ve
+nve0	nüe
+lve2	lüé
+nve4	nüè
+lve5	lüe
 
 # Initial + an
 an0	an
@@ -272,3 +330,4 @@ pin1yin1	pīnyīn
 
 # Sentences
 wo3 ai4 ni3	wǒ ài nǐ
+Wang2: zhong1guo2 da4 ma?	Wáng: zhōngguó dà ma?

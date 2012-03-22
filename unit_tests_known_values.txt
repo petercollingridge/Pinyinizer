@@ -325,9 +325,10 @@ huar1	huār
 nar2	nár
 
 # Compound words
-ni3hao3	nǐhaǒ
+ni3hao3	nǐhǎo
 pin1yin1	pīnyīn
 
 # Sentences
 wo3 ai4 ni3	wǒ ài nǐ
-Wang2: zhong1guo2 da4 ma?	Wáng: zhōngguó dà ma?
+Wang2: zhong1guo2 da4 ma5?	Wáng: zhōngguó dà ma?
+Liang2feng1lve4mian4	Liángfēnglüèmiàn
